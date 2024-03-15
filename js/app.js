@@ -42,9 +42,10 @@ sendButtomElement.addEventListener('click', function(){
     console.log(indexChecked)
     if(indexChecked !== (- 1)){
         counter++;  
+        
     }
    }console.log(`hai trovato ${counter} numeri`)
-   resultDivElement.append(`${userNumberArray} / ${counter}`)
+   resultDivElement.innerHTML += `<p>hai inserito ${userNumbers} / hai trovato ${counter} numeri</p>`
 
 
 });
