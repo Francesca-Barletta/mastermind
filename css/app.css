@@ -3,3 +3,32 @@
     justify-content: space-between;
     align-items: center;
 }
+h1{
+    font-size: 40px;
+}
+body{
+    background-color: rgb(0, 110, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result{
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(255, 153, 0);
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
